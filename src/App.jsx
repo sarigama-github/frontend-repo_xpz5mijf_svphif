@@ -8,19 +8,19 @@ import CTA from "./components/CTA";
 function App() {
   return (
     <div className="min-h-screen bg-white text-slate-900">
-      <header className="border-b border-amber-100 bg-white/70 backdrop-blur sticky top-0 z-20" dir="rtl">
+      <header className="border-b border-amber-100 bg-white/70 backdrop-blur sticky top-0 z-20">
         <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <span className="text-2xl">🐾</span>
-            <div className="text-right">
-              <p className="text-lg font-extrabold text-slate-900">ד"ר אנה מוטיקה</p>
-              <p className="text-sm text-slate-600">וטרינרית עד הבית</p>
+            <div>
+              <p className="text-lg font-extrabold text-slate-900">Dr. Anna Motika</p>
+              <p className="text-sm text-slate-600">Mobile Veterinarian — House Calls</p>
             </div>
           </div>
           <nav className="hidden sm:flex gap-6 text-slate-700">
-            <a href="#services" className="hover:text-rose-600 transition">שירותים</a>
-            <a href="#why" className="hover:text-rose-600 transition">למה בבית</a>
-            <a href="#cta" className="hover:text-rose-600 transition">קביעת ביקור</a>
+            <a href="#services" className="hover:text-rose-600 transition">Services</a>
+            <a href="#why" className="hover:text-rose-600 transition">Why Home Visits</a>
+            <a href="#cta" className="hover:text-rose-600 transition">Book a Visit</a>
           </nav>
         </div>
       </header>
@@ -35,9 +35,9 @@ function App() {
         <CTA />
       </main>
 
-      <footer className="py-10 text-center text-slate-500" dir="rtl">
+      <footer className="py-10 text-center text-slate-500">
         <p>
-          ד"ר אנה מוטיקה — וטרינרית ניידת לכלבים וחתולים. לימודי רפואה וטרינרית בצרפת, מעל 10 שנות ניסיון.
+          Dr. Anna Motika — Mobile vet for dogs and cats. Studied veterinary medicine in France, over 10 years of experience.
         </p>
       </footer>
     </div>
